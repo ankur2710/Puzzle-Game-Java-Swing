@@ -38,3 +38,10 @@ class MyButton extends JButton {
 
         initUI();
     }
+
+  public MyButton(Image image) {
+
+        super(new ImageIcon(image));
+
+        initUI();
+    }
