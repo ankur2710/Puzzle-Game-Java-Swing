@@ -27,3 +27,14 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+
+class MyButton extends JButton {
+
+    private boolean isLastButton;
+
+    public MyButton() {
+
+        super();
+
+        initUI();
+    }
