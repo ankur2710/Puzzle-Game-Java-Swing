@@ -57,3 +57,9 @@ class MyButton extends JButton {
         BorderFactory.createLineBorder(Color.gray);
 
         addMouseListener(new MouseAdapter() {
+        @Override
+            public void mouseExited(MouseEvent e) {
+                setBorder(BorderFactory.createLineBorder(Color.gray));
+            }
+        });
+    }
