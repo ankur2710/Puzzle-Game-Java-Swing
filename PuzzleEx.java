@@ -51,3 +51,9 @@ class MyButton extends JButton {
         BorderFactory.createLineBorder(Color.gray);
 
         addMouseListener(new MouseAdapter() {
+           private void initUI() {
+
+        isLastButton = false;
+        BorderFactory.createLineBorder(Color.gray);
+
+        addMouseListener(new MouseAdapter() {
