@@ -68,3 +68,8 @@ class MyButton extends JButton {
 
         isLastButton = true;
     }
+       public boolean isLastButton() {
+
+        return isLastButton;
+    }
+}
