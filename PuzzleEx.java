@@ -63,3 +63,8 @@ class MyButton extends JButton {
             }
         });
     }
+      
+    public void setLastButton() {
+
+        isLastButton = true;
+    }
