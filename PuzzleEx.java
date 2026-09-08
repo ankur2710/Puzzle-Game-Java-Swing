@@ -73,3 +73,4 @@ class MyButton extends JButton {
         return isLastButton;
     }
 }
+   public class PuzzleEx extends JFrame {
