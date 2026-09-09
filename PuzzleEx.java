@@ -82,4 +82,6 @@ class MyButton extends JButton {
     private int width, height;
     private List<MyButton> buttons;
     private List<Point> solution;
+     private final int NUMBER_OF_BUTTONS = 12;
+    private final int DESIRED_WIDTH = 300;
 
