@@ -74,3 +74,7 @@ class MyButton extends JButton {
     }
 }
    public class PuzzleEx extends JFrame {
+     private JPanel panel;
+    private BufferedImage source;
+    private BufferedImage resized;
+    private Image image;
