@@ -80,4 +80,6 @@ class MyButton extends JButton {
     private Image image;
     private MyButton lastButton;
     private int width, height;
+    private List<MyButton> buttons;
+    private List<Point> solution;
 
