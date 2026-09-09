@@ -78,3 +78,6 @@ class MyButton extends JButton {
     private BufferedImage source;
     private BufferedImage resized;
     private Image image;
+    private MyButton lastButton;
+    private int width, height;
+
