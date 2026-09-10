@@ -93,4 +93,5 @@ class MyButton extends JButton {
 
         solution = new ArrayList<>();
     
-
+        solution.add(new Point(0, 0));
+        solution.add(new Point(0, 1));
