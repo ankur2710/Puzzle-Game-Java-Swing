@@ -89,5 +89,8 @@ class MyButton extends JButton {
 
         initUI();
     }
+             private void initUI() {
+
+        solution = new ArrayList<>();
     
 
