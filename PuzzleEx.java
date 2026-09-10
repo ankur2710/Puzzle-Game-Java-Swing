@@ -95,3 +95,7 @@ class MyButton extends JButton {
     
         solution.add(new Point(0, 0));
         solution.add(new Point(0, 1));
+        solution.add(new Point(0, 2));
+        solution.add(new Point(1, 0));
+        solution.add(new Point(1, 1));
+        solution.add(new Point(1, 2));
