@@ -111,3 +111,7 @@ class MyButton extends JButton {
         panel.setBorder(BorderFactory.createLineBorder(Color.gray));
         panel.setLayout(new GridLayout(4, 3, 0, 0));
          try {
+             source = loadImage();
+            int h = getNewHeight(source.getWidth(), source.getHeight());
+            resized = resizeImage(source, DESIRED_WIDTH, h,
+                    BufferedImage.TYPE_INT_ARGB);
