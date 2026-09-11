@@ -110,3 +110,4 @@ class MyButton extends JButton {
             panel = new JPanel();
         panel.setBorder(BorderFactory.createLineBorder(Color.gray));
         panel.setLayout(new GridLayout(4, 3, 0, 0));
+         try {
