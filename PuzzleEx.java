@@ -107,3 +107,6 @@ class MyButton extends JButton {
         solution.add(new Point(3, 2));
 
            buttons = new ArrayList<>();
+            panel = new JPanel();
+        panel.setBorder(BorderFactory.createLineBorder(Color.gray));
+        panel.setLayout(new GridLayout(4, 3, 0, 0));
