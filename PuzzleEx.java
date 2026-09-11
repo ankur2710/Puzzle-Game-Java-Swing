@@ -105,3 +105,5 @@ class MyButton extends JButton {
         solution.add(new Point(3, 0));
         solution.add(new Point(3, 1));
         solution.add(new Point(3, 2));
+
+           buttons = new ArrayList<>();
