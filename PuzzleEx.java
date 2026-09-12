@@ -118,4 +118,7 @@ class MyButton extends JButton {
             JOptionPane.showMessageDialog(this, "Could not load image", "Error",
                     JOptionPane.ERROR_MESSAGE);
         }
+
+                 width = resized.getWidth(null);
+        height = resized.getHeight(null);
        
