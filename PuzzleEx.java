@@ -123,4 +123,6 @@ class MyButton extends JButton {
         height = resized.getHeight(null);
                  
         add(panel, BorderLayout.CENTER);
+        for (int i = 0; i < 4; i++) {
+
        
