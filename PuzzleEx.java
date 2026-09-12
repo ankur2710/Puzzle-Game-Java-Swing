@@ -121,4 +121,6 @@ class MyButton extends JButton {
 
                  width = resized.getWidth(null);
         height = resized.getHeight(null);
+                 
+        add(panel, BorderLayout.CENTER);
        
