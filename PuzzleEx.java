@@ -114,5 +114,8 @@ class MyButton extends JButton {
             int h = getNewHeight(source.getWidth(), source.getHeight());
             resized = resizeImage(source, DESIRED_WIDTH, h,
                     BufferedImage.TYPE_INT_ARGB);
-
+                } catch (IOException ex) {
+            JOptionPane.showMessageDialog(this, "Could not load image", "Error",
+                    JOptionPane.ERROR_MESSAGE);
+        }
        
