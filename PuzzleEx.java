@@ -130,5 +130,7 @@ class MyButton extends JButton {
                                       (width / 3), height / 4)));
 
                           var button = new MyButton(image);
+                           button.putClientProperty("position", new Point(i, j));
+
 
        
