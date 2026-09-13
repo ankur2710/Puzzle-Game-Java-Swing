@@ -126,6 +126,7 @@ class MyButton extends JButton {
         for (int i = 0; i < 4; i++) {
              for (int j = 0; j < 3; j++) {
                   image = createImage(new FilteredImageSource(resized.getSource(),
+                         new CropImageFilter(j * width / 3, i * height / 4,
 
 
        
