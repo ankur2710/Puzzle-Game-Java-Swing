@@ -129,6 +129,6 @@ class MyButton extends JButton {
                          new CropImageFilter(j * width / 3, i * height / 4,
                                       (width / 3), height / 4)));
 
-
+                          var button = new MyButton(image);
 
        
