@@ -136,6 +136,7 @@ class MyButton extends JButton {
                          lastButton.setBorderPainted(false);
                           lastButton.setContentAreaFilled(false);
                              lastButton.setLastButton();
+                            lastButton.putClientProperty("position", new Point(i, j));
 
 
        
