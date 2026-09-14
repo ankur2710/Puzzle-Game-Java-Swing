@@ -133,6 +133,7 @@ class MyButton extends JButton {
                            button.putClientProperty("position", new Point(i, j));
                            if (i == 3 && j == 2) {
                          lastButton = new MyButton();
+                         lastButton.setBorderPainted(false);
 
 
        
