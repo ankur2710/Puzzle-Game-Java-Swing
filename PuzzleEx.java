@@ -135,6 +135,7 @@ class MyButton extends JButton {
                          lastButton = new MyButton();
                          lastButton.setBorderPainted(false);
                           lastButton.setContentAreaFilled(false);
+                             lastButton.setLastButton();
 
 
        
