@@ -132,6 +132,7 @@ class MyButton extends JButton {
                           var button = new MyButton(image);
                            button.putClientProperty("position", new Point(i, j));
                            if (i == 3 && j == 2) {
+                         lastButton = new MyButton();
 
 
        
