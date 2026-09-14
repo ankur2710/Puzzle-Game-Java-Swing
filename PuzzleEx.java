@@ -134,6 +134,7 @@ class MyButton extends JButton {
                            if (i == 3 && j == 2) {
                          lastButton = new MyButton();
                          lastButton.setBorderPainted(false);
+                          lastButton.setContentAreaFilled(false);
 
 
        
