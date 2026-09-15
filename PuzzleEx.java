@@ -146,6 +146,7 @@ class MyButton extends JButton {
                  Collections.shuffle(buttons);
                  buttons.add(lastButton);
                  for (int i = 0; i < NUMBER_OF_BUTTONS; i++) {
+                     var btn = buttons.get(i);
 
 
 
