@@ -143,6 +143,7 @@ class MyButton extends JButton {
                 }
             }
         }
+                 Collections.shuffle(buttons);
 
 
        
