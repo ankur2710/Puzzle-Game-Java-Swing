@@ -147,6 +147,10 @@ class MyButton extends JButton {
                  buttons.add(lastButton);
                  for (int i = 0; i < NUMBER_OF_BUTTONS; i++) {
                      var btn = buttons.get(i);
+                      panel.add(btn);
+            btn.setBorder(BorderFactory.createLineBorder(Color.gray));
+            btn.addActionListener(new ClickAction());
+        }
 
 
 
