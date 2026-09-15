@@ -144,6 +144,7 @@ class MyButton extends JButton {
             }
         }
                  Collections.shuffle(buttons);
+                 buttons.add(lastButton);
 
 
        
