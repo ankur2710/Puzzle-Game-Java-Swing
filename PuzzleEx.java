@@ -153,6 +153,7 @@ class MyButton extends JButton {
         }
             pack();
             setTitle("Puzzle");
+            setResizable(false);
 
 
 
