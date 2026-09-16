@@ -151,6 +151,8 @@ class MyButton extends JButton {
             btn.setBorder(BorderFactory.createLineBorder(Color.gray));
             btn.addActionListener(new ClickAction());
         }
+            pack();
+
 
 
 
