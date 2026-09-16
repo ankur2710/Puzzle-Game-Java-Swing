@@ -154,6 +154,7 @@ class MyButton extends JButton {
             pack();
             setTitle("Puzzle");
             setResizable(false);
+            setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 
 
