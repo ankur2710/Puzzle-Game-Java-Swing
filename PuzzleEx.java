@@ -152,6 +152,7 @@ class MyButton extends JButton {
             btn.addActionListener(new ClickAction());
         }
             pack();
+            setTitle("Puzzle");
 
 
 
