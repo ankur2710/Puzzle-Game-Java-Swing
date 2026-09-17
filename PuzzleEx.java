@@ -162,6 +162,7 @@ class MyButton extends JButton {
                  int newHeight = (int) (h * ratio);
         return newHeight;
     }
+     private BufferedImage loadImage() throws IOException {
 
 
 
