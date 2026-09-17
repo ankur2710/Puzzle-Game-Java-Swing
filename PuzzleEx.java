@@ -164,6 +164,8 @@ class MyButton extends JButton {
     }
      private BufferedImage loadImage() throws IOException {
          var bimg = ImageIO.read(new File("src/resources/icesid.jpg"));
+          return bimg;
+    }
 
 
 
