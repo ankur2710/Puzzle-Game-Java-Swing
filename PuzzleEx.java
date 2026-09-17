@@ -157,7 +157,8 @@ class MyButton extends JButton {
             setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             setLocationRelativeTo(null);
     }
-            private int getNewHeight(int w, int h) {
+    private int getNewHeight(int w, int h) {
+              double ratio = DESIRED_WIDTH / (double) w;
 
 
 
