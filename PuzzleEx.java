@@ -168,6 +168,7 @@ class MyButton extends JButton {
     }
           private BufferedImage resizeImage(BufferedImage originalImage, int width,
                                       int height, int type) {
+             var resizedImage = new BufferedImage(width, height, type);
 
     
 
