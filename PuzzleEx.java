@@ -171,6 +171,7 @@ class MyButton extends JButton {
              var resizedImage = new BufferedImage(width, height, type);
            var g = resizedImage.createGraphics();
              g.drawImage(originalImage, 0, 0, width, height, null);
+              g.dispose();
     
 
 
