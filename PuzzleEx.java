@@ -166,6 +166,10 @@ class MyButton extends JButton {
          var bimg = ImageIO.read(new File("src/resources/icesid.jpg"));
           return bimg;
     }
+          private BufferedImage resizeImage(BufferedImage originalImage, int width,
+                                      int height, int type) {
+
+    
 
 
 
