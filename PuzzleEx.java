@@ -181,6 +181,7 @@ class MyButton extends JButton {
             checkButton(e);
             checkSolution();
         }
+            private void checkButton(ActionEvent e) {
 
 
 
