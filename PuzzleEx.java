@@ -178,6 +178,9 @@ class MyButton extends JButton {
             
     @Override
         public void actionPerformed(ActionEvent e) {
+            checkButton(e);
+            checkSolution();
+        }
 
 
 
