@@ -175,6 +175,10 @@ class MyButton extends JButton {
               return resizedImage;
     }
         private class ClickAction extends AbstractAction {
+            
+    @Override
+        public void actionPerformed(ActionEvent e) {
+
 
 
 
