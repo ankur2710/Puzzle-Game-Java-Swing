@@ -174,7 +174,8 @@ class MyButton extends JButton {
               g.dispose();
               return resizedImage;
     }
-    
+        private class ClickAction extends AbstractAction {
+
 
 
 
