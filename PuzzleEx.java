@@ -183,6 +183,8 @@ class MyButton extends JButton {
         }
             private void checkButton(ActionEvent e) {\
                    int lidx = 0;
+                for (MyButton button : buttons) {
+                if (button.isLastButton()) {
 
 
 
