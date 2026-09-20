@@ -189,6 +189,8 @@ class MyButton extends JButton {
                 }
             }
                 var button = (JButton) e.getSource();
+                 int bidx = buttons.indexOf(button);
+
 
 
 
