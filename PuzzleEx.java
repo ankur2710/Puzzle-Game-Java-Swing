@@ -185,6 +185,9 @@ class MyButton extends JButton {
                    int lidx = 0;
                 for (MyButton button : buttons) {
                 if (button.isLastButton()) {
+                lidx = buttons.indexOf(button);
+                }
+            }
 
 
 
