@@ -191,6 +191,7 @@ class MyButton extends JButton {
                 var button = (JButton) e.getSource();
                  int bidx = buttons.indexOf(button);
                 if ((bidx - 1 == lidx) || (bidx + 1 == lidx)
+                    || (bidx - 3 == lidx) || (bidx + 3 == lidx)) {
 
 
 
