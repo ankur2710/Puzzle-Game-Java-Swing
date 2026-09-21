@@ -196,6 +196,7 @@ class MyButton extends JButton {
                 updateButtons();
             }
         }
+        private void updateButtons() {
 
 
 
