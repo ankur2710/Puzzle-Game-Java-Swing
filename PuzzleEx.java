@@ -192,6 +192,10 @@ class MyButton extends JButton {
                  int bidx = buttons.indexOf(button);
                 if ((bidx - 1 == lidx) || (bidx + 1 == lidx)
                     || (bidx - 3 == lidx) || (bidx + 3 == lidx)) {
+                Collections.swap(buttons, bidx, lidx);
+                updateButtons();
+            }
+        }
 
 
 
