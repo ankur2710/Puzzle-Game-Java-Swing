@@ -201,6 +201,10 @@ class MyButton extends JButton {
               for (JComponent btn : buttons) {
                  panel.add(btn);
             }
+             panel.validate();
+        }
+    }
+
 
 
 
