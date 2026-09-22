@@ -206,6 +206,9 @@ class MyButton extends JButton {
     }
     private void checkSolution() {
           var current = new ArrayList<Point>();
+        for (JComponent btn : buttons) {
+            current.add((Point) btn.getClientProperty("position"));
+        }
 
 
 
