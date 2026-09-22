@@ -199,6 +199,8 @@ class MyButton extends JButton {
         private void updateButtons() {
              panel.removeAll();
               for (JComponent btn : buttons) {
+                 panel.add(btn);
+            }
 
 
 
