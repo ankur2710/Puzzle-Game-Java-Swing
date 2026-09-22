@@ -205,6 +205,7 @@ class MyButton extends JButton {
         }
     }
     private void checkSolution() {
+          var current = new ArrayList<Point>();
 
 
 
