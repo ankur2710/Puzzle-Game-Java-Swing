@@ -204,6 +204,7 @@ class MyButton extends JButton {
              panel.validate();
         }
     }
+    private void checkSolution() {
 
 
 
