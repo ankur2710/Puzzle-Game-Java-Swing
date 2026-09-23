@@ -210,6 +210,7 @@ class MyButton extends JButton {
             current.add((Point) btn.getClientProperty("position"));
         }
         if (compareList(solution, current)) {
+            JOptionPane.showMessageDialog(panel, "Finished",
 
 
 
