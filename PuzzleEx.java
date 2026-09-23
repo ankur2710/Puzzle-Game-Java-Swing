@@ -211,6 +211,9 @@ class MyButton extends JButton {
         }
         if (compareList(solution, current)) {
             JOptionPane.showMessageDialog(panel, "Finished",
+              "Congratulation", JOptionPane.INFORMATION_MESSAGE);
+        }
+    }
 
 
 
