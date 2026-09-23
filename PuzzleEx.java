@@ -209,6 +209,7 @@ class MyButton extends JButton {
         for (JComponent btn : buttons) {
             current.add((Point) btn.getClientProperty("position"));
         }
+        if (compareList(solution, current)) {
 
 
 
