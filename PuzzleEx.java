@@ -214,6 +214,8 @@ class MyButton extends JButton {
               "Congratulation", JOptionPane.INFORMATION_MESSAGE);
         }
     }
+            public static boolean compareList(List ls1, List ls2) {
+
             
 
 
