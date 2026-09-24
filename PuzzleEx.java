@@ -218,6 +218,9 @@ class MyButton extends JButton {
                  return ls1.toString().contentEquals(ls2.toString());
     }
               public static void main(String[] args) {
+                  
+        EventQueue.invokeLater(() -> {
+
 
             
 
