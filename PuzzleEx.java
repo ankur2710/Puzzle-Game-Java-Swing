@@ -215,6 +215,8 @@ class MyButton extends JButton {
         }
     }
             public static boolean compareList(List ls1, List ls2) {
+                 return ls1.toString().contentEquals(ls2.toString());
+    }
 
             
 
