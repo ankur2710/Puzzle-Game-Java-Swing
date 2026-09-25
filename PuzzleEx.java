@@ -222,6 +222,9 @@ class MyButton extends JButton {
         EventQueue.invokeLater(() -> {
             var puzzle = new PuzzleEx();
             puzzle.setVisible(true);
+         });
+    }
+}
 
 
             
