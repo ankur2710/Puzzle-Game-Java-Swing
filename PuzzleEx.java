@@ -220,6 +220,7 @@ class MyButton extends JButton {
               public static void main(String[] args) {
                   
         EventQueue.invokeLater(() -> {
+            var puzzle = new PuzzleEx();
 
 
             
