@@ -11,3 +11,5 @@ Resizing image with BufferedImage.
 Cropping image with CropImageFilter.
 Layout out buttons with GridLayout.
 Using two ArrayLists of points to check for solution.
+
+Java puzzle game example
