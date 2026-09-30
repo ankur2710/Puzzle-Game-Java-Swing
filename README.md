@@ -20,3 +20,5 @@ The goal of this little game is to form a picture. Buttons containing images are
 We use an image of a Sid character from the Ice Age movie. We scale the image and cut it into twelve pieces.  These pieces are used by JButton components.  The last piece is not used; we have an empty button instead. You can download some reasonably large picture and use it in this  game. 
 
      addMouseListener(new MouseAdapter() {
+      @Override
+      public void mouseEntered(MouseEvent e) {
