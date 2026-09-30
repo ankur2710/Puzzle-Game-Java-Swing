@@ -24,3 +24,5 @@ We use an image of a Sid character from the Ice Age movie. We scale the image an
       public void mouseEntered(MouseEvent e) {
       setBorder(BorderFactory.createLineBorder(Color.yellow));
     }
+      @Override
+      public void mouseExited(MouseEvent e) {
