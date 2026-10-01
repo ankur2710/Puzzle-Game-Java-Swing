@@ -40,3 +40,10 @@ There is one button that we call the last button. It is a button that does not h
 
     private final int DESIRED_WIDTH = 300;
 The image that we use to form is scaled to have the desired width. With the getNewHeight() method we calculate the new height, keeping the image's ratio.
+
+    solution.add(new Point(0, 0));
+    solution.add(new Point(0, 1));
+    solution.add(new Point(0, 2));
+     solution.add(new Point(1, 0));
+    ...
+
