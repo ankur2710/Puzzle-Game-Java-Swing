@@ -30,3 +30,4 @@ We use an image of a Sid character from the Ice Age movie. We scale the image an
 
        }
     });
+When we hover a mouse pointer over the button, its border changes to yellow colour.
