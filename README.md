@@ -36,3 +36,4 @@ When we hover a mouse pointer over the button, its border changes to yellow colo
 
        return isLastButton;
     }
+There is one button that we call the last button. It is a button that does not have an image. Other buttons swap space with this one.
