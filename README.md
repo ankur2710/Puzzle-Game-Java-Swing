@@ -53,3 +53,4 @@ The solution array list stores the correct order of buttons which forms the imag
 We use a GridLayout to store our components. The layout consists of 4 rows and 3 columns.
 
          image = createImage(new FilteredImageSource(resized.getSource(),
+         new CropImageFilter(j * width / 3, i * height / 4,
