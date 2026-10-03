@@ -51,3 +51,5 @@ The solution array list stores the correct order of buttons which forms the imag
     panel.setLayout(new GridLayout(4, 3, 0, 0));
 
 We use a GridLayout to store our components. The layout consists of 4 rows and 3 columns.
+
+         image = createImage(new FilteredImageSource(resized.getSource(),
