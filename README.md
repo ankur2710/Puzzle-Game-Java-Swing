@@ -47,3 +47,5 @@ The image that we use to form is scaled to have the desired width. With the getN
      solution.add(new Point(1, 0));
     ...
 The solution array list stores the correct order of buttons which forms the image. Each button is identified by one Point. 
+
+    panel.setLayout(new GridLayout(4, 3, 0, 0));
