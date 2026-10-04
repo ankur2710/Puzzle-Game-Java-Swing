@@ -57,4 +57,5 @@ We use a GridLayout to store our components. The layout consists of 4 rows and 3
           (width / 3), height / 4)));
 CropImageFilter is used to cut a rectangular shape from the already resized image source. It is meant to be used in conjunction with a FilteredImageSource object to produce cropped versions of existing images.
 
+          button.putClientProperty("position", new Point(i, j));
 
