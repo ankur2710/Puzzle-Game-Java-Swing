@@ -55,3 +55,4 @@ We use a GridLayout to store our components. The layout consists of 4 rows and 3
          image = createImage(new FilteredImageSource(resized.getSource(),
          new CropImageFilter(j * width / 3, i * height / 4,
           (width / 3), height / 4)));
+CropImageFilter is used to cut a rectangular shape from the already resized image source.
