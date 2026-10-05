@@ -59,3 +59,5 @@ CropImageFilter is used to cut a rectangular shape from the already resized imag
 
           button.putClientProperty("position", new Point(i, j));
 Buttons are identified by their position client property. It is a point containing the button's correct row and colum position in the picture. These properties are used to find out if we have the correct order of buttons in the window.
+
+        if (i == 3 && j == 2) {
