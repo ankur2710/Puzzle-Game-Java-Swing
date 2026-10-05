@@ -62,4 +62,8 @@ Buttons are identified by their position client property. It is a point containi
 
         if (i == 3 && j == 2) {
            lastButton = new MyButton();
-           
+           lastButton.setBorderPainted(false);
+           lastButton.setContentAreaFilled(false);
+           lastButton.setLastButton();
+           lastButton.putClientProperty("position", new Point(i, j));
+
