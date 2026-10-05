@@ -66,4 +66,7 @@ Buttons are identified by their position client property. It is a point containi
            lastButton.setContentAreaFilled(false);
            lastButton.setLastButton();
            lastButton.putClientProperty("position", new Point(i, j));
+           } else {
+    buttons.add(button);
+     }
 
