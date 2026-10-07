@@ -69,4 +69,4 @@ Buttons are identified by their position client property. It is a point containi
            } else {
     buttons.add(button);
      }
-The button with no image is called the last button; it is placed at the end of the grid in the bottom-right corner.
+The button with no image is called the last button; it is placed at the end of the grid in the bottom-right corner. It is the button that swaps its position with the adjacent button that is being clicked.
