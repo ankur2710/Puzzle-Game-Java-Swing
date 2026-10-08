@@ -76,3 +76,4 @@ The button with no image is called the last button; it is placed at the end of t
 
          Collections.shuffle(buttons);
          buttons.add(lastButton);
+ We randomly reorder the elements of the buttons list. 
