@@ -75,3 +75,4 @@ The button with no image is called the last button; it is placed at the end of t
 
 
          Collections.shuffle(buttons);
+         buttons.add(lastButton);
