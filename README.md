@@ -82,4 +82,5 @@ The button with no image is called the last button; it is placed at the end of t
         for (int i = 0; i < NUMBER_OF_BUTTONS; i++) {
              MyButton btn = buttons.get(i);
              panel.add(btn);
+             btn.setBorder(BorderFactory.createLineBorder(Color.gray));
 
