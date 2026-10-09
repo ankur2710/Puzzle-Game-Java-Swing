@@ -92,3 +92,4 @@ All the components from the buttons list are placed on the panel.  We create som
           int newHeight = (int) (h * ratio);
           return newHeight;
      }
+The getNewHeight() method calculates the height of the image based on the desired width. 
