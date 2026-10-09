@@ -89,3 +89,5 @@ All the components from the buttons list are placed on the panel.  We create som
 
       private int getNewHeight(int w, int h) {
           double ratio = DESIRED_WIDTH / (double) w;
+          int newHeight = (int) (h * ratio);
+          return newHeight;
