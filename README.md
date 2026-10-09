@@ -86,3 +86,5 @@ The button with no image is called the last button; it is placed at the end of t
              btn.addActionListener(new ClickAction());
     }
 All the components from the buttons list are placed on the panel.  We create some gray border around the buttons and add a click action listener.
+
+            private int getNewHeight(int w, int h) {
