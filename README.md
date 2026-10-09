@@ -85,4 +85,4 @@ The button with no image is called the last button; it is placed at the end of t
              btn.setBorder(BorderFactory.createLineBorder(Color.gray));
              btn.addActionListener(new ClickAction());
     }
-
+All the components from the buttons list are placed on the panel.
