@@ -100,4 +100,4 @@ The getNewHeight() method calculates the height of the image based on the desire
         return bimg;
     }
 
-A JPG image is loaded from the disk. ImageIO's read() method returns a BufferedImage,
+A JPG image is loaded from the disk. ImageIO's read() method returns a BufferedImage, which is Swing's important class for manipulating images.
