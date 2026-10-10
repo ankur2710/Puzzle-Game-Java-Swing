@@ -93,3 +93,7 @@ All the components from the buttons list are placed on the panel.  We create som
           return newHeight;
      }
 The getNewHeight() method calculates the height of the image based on the desired width. The image's ratio is kept. We scale the image using these values.
+
+
+     private BufferedImage loadImage() throws IOException {
+
