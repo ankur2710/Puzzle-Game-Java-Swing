@@ -100,4 +100,4 @@ The getNewHeight() method calculates the height of the image based on the desire
         return bimg;
     }
 
-
+A JPG image is loaded from the disk.
