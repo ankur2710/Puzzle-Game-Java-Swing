@@ -97,5 +97,7 @@ The getNewHeight() method calculates the height of the image based on the desire
 
      private BufferedImage loadImage() throws IOException {
         BufferedImage bimg = ImageIO.read(new File("src/resources/icesid.jpg"));
+        return bimg;
+    }
 
 
