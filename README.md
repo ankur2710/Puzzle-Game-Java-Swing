@@ -105,3 +105,4 @@ A JPG image is loaded from the disk. ImageIO's read() method returns a BufferedI
      private BufferedImage resizeImage(BufferedImage originalImage, int width,
            int height, int type) throws IOException {
        BufferedImage resizedImage = new BufferedImage(width, height, type);
+       Graphics2D g = resizedImage.createGraphics();
