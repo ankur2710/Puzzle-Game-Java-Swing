@@ -111,3 +111,4 @@ A JPG image is loaded from the disk. ImageIO's read() method returns a BufferedI
 
        return resizedImage;
     }
+The original image is resized by creating a new BufferedImage with new dimensions.
