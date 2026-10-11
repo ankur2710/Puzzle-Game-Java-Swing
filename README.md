@@ -103,4 +103,5 @@ The getNewHeight() method calculates the height of the image based on the desire
 A JPG image is loaded from the disk. ImageIO's read() method returns a BufferedImage, which is Swing's important class for manipulating images. 
 
      private BufferedImage resizeImage(BufferedImage originalImage, int width,
-         int height, int type) throws IOException {
+           int height, int type) throws IOException {
+       BufferedImage resizedImage = new BufferedImage(width, height, type);
