@@ -115,3 +115,4 @@ The original image is resized by creating a new BufferedImage with new dimension
 
 
       private void checkButton(ActionEvent e) {
+          int lidx = 0;
