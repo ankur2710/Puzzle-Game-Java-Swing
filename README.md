@@ -117,3 +117,8 @@ The original image is resized by creating a new BufferedImage with new dimension
       private void checkButton(ActionEvent e) {
           int lidx = 0;
           for (MyButton button : buttons) {
+                          if (button.isLastButton()) {
+            lidx = buttons.indexOf(button);
+        }
+    }
+
