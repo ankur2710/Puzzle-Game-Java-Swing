@@ -123,4 +123,5 @@ The original image is resized by creating a new BufferedImage with new dimension
     }
      JButton button = (JButton) e.getSource();
     int bidx = buttons.indexOf(button);
+    if ((bidx - 1 == lidx) || (bidx + 1 == lidx)
 
