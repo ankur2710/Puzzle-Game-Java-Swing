@@ -130,3 +130,4 @@ The original image is resized by creating a new BufferedImage with new dimension
         updateButtons();
         }
     }
+Buttons are stored in an array list.
