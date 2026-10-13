@@ -126,4 +126,4 @@ The original image is resized by creating a new BufferedImage with new dimension
     if ((bidx - 1 == lidx) || (bidx + 1 == lidx)
           || (bidx - 3 == lidx) || (bidx + 3 == lidx)) {
 
-
+      Collections.swap(buttons, bidx, lidx);
