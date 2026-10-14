@@ -131,3 +131,6 @@ The original image is resized by creating a new BufferedImage with new dimension
         }
     }
 Buttons are stored in an array list.  This list is then mapped to the grid of the panel. We get the indexes of the last button and the clicked button. They are swapped using the Collections.swap() if they are adjacent.
+
+
+    private void updateButtons() {
