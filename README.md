@@ -135,3 +135,4 @@ Buttons are stored in an array list.  This list is then mapped to the grid of th
 
     private void updateButtons() {
          panel.removeAll();
+         for (JComponent btn : buttons) {
