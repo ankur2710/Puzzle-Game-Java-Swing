@@ -141,3 +141,4 @@ Buttons are stored in an array list.  This list is then mapped to the grid of th
 
        panel.validate();
     }
+The updateButtons() method maps the list to the panel's grid. 
