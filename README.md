@@ -141,4 +141,4 @@ Buttons are stored in an array list.  This list is then mapped to the grid of th
 
        panel.validate();
     }
-The updateButtons() method maps the list to the panel's grid.  First, all components are removed with the removeAll() method. 
+The updateButtons() method maps the list to the panel's grid.  First, all components are removed with the removeAll() method.  A for loop is used to go trough the buttons list to add the reordered buttons back to the panel's layout manager. 
