@@ -151,4 +151,5 @@ The updateButtons() method maps the list to the panel's grid.  First, all compon
        for (JComponent btn : buttons) {
             current.add((Point) btn.getClientProperty("position"));
        }
+       if (compareList(solution, current)) {
 
