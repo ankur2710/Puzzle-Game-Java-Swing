@@ -154,4 +154,7 @@ The updateButtons() method maps the list to the panel's grid.  First, all compon
        if (compareList(solution, current)) {
            JOptionPane.showMessageDialog(panel, "Finished",
                 "Congratulation", JOptionPane.INFORMATION_MESSAGE);
+                    }
+    }
+
 
