@@ -148,4 +148,5 @@ The updateButtons() method maps the list to the panel's grid.  First, all compon
 
      private void checkSolution() {
        List<Point> current = new ArrayList<>();
+       for (JComponent btn : buttons) {
 
