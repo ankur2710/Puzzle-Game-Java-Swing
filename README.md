@@ -166,3 +166,4 @@ Solution checking is done by comparing the list of points of the correctly order
  <img width="310" height="260" alt="image" src="https://github.com/user-attachments/assets/3d19f082-51f6-4467-89e1-8253d8b7ae61" />
 
 
+Figure: Forming the image
