@@ -161,3 +161,8 @@ The updateButtons() method maps the list to the panel's grid.  First, all compon
 Solution checking is done by comparing the list of points of the correctly ordered buttons with the current list containg the order of buttons from the window.  A message dialog is shown in case the solution is reached.
 
 
+
+
+ <img width="310" height="260" alt="image" src="https://github.com/user-attachments/assets/3d19f082-51f6-4467-89e1-8253d8b7ae61" />
+
+
