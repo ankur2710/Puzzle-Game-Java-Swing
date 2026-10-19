@@ -154,7 +154,8 @@ The updateButtons() method maps the list to the panel's grid.  First, all compon
        if (compareList(solution, current)) {
            JOptionPane.showMessageDialog(panel, "Finished",
                 "Congratulation", JOptionPane.INFORMATION_MESSAGE);
-                    }
+           }
     }
 
 
+Solution checking is done by comparing the list of points of the correctly ordered buttons with the current list containg the order of buttons from the window.
