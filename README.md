@@ -174,4 +174,4 @@ Solution checking is done by comparing the list of points of the correctly order
  Figure: Forming the image
 
 
-
+This was a Puzzle game created in  Java.
