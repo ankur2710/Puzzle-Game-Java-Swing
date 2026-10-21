@@ -141,35 +141,3 @@ Buttons are stored in an array list.  This list is then mapped to the grid of th
 
        panel.validate();
     }
-The updateButtons() method maps the list to the panel's grid.  First, all components are removed with the removeAll() method.  A for loop is used to go trough the buttons list to add the reordered buttons back to the panel's layout manager.  Finally, the validate() method implements the new layout.
-
-
-
-
-     private void checkSolution() {
-       List<Point> current = new ArrayList<>();
-       for (JComponent btn : buttons) {
-            current.add((Point) btn.getClientProperty("position"));
-       }
-       if (compareList(solution, current)) {
-           JOptionPane.showMessageDialog(panel, "Finished",
-                "Congratulation", JOptionPane.INFORMATION_MESSAGE);
-           }
-    }
-
-
-Solution checking is done by comparing the list of points of the correctly ordered buttons with the current list containg the order of buttons from the window.  A message dialog is shown in case the solution is reached.
-
-
-
-
-
-
-
- <img width="310" height="260" alt="image" src="https://github.com/user-attachments/assets/3d19f082-51f6-4467-89e1-8253d8b7ae61" />
-
-
-Figure: Forming the image
-
-
-This was a Puzzle game created in  Java.
