@@ -141,3 +141,22 @@ Buttons are stored in an array list.  This list is then mapped to the grid of th
 
        panel.validate();
     }
+
+The updateButtons() method maps the list to the panel's grid.  First, all components are removed with the removeAll() method.  A for loop is used to go trough the buttons list to add the reordered buttons back to the panel's layout manager.  Finally, the validate() method implements the new layout.
+
+
+
+
+     private void checkSolution() {
+       List<Point> current = new ArrayList<>();
+       for (JComponent btn : buttons) {
+            current.add((Point) btn.getClientProperty("position"));
+       }
+       if (compareList(solution, current)) {
+           JOptionPane.showMessageDialog(panel, "Finished",
+                "Congratulation", JOptionPane.INFORMATION_MESSAGE);
+           }
+    }
+
+
+
