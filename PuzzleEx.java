@@ -158,3 +158,77 @@ class MyButton extends JButton {
             setLocationRelativeTo(null);
     }
   
+        private int getNewHeight(int w, int h) {
+                 double ratio = DESIRED_WIDTH / (double) w;
+                 int newHeight = (int) (h * ratio);
+        return newHeight;
+    }
+     private BufferedImage loadImage() throws IOException {
+         var bimg = ImageIO.read(new File("src/resources/icesid.jpg"));
+          return bimg;
+    }
+          private BufferedImage resizeImage(BufferedImage originalImage, int width,
+                                      int height, int type) {
+             var resizedImage = new BufferedImage(width, height, type);
+           var g = resizedImage.createGraphics();
+             g.drawImage(originalImage, 0, 0, width, height, null);
+              g.dispose();
+              return resizedImage;
+    }
+        private class ClickAction extends AbstractAction {
+            
+    @Override
+        public void actionPerformed(ActionEvent e) {
+            checkButton(e);
+            checkSolution();
+        }
+            private void checkButton(ActionEvent e) {\
+                   int lidx = 0;
+                for (MyButton button : buttons) {
+                if (button.isLastButton()) {
+                lidx = buttons.indexOf(button);
+                }
+            }
+                var button = (JButton) e.getSource();
+                 int bidx = buttons.indexOf(button);
+                if ((bidx - 1 == lidx) || (bidx + 1 == lidx)
+                    || (bidx - 3 == lidx) || (bidx + 3 == lidx)) {
+                Collections.swap(buttons, bidx, lidx);
+                updateButtons();
+            }
+        }
+        private void updateButtons() {
+             panel.removeAll();
+              for (JComponent btn : buttons) {
+                 panel.add(btn);
+            }
+             panel.validate();
+        }
+    }
+    private void checkSolution() {
+          var current = new ArrayList<Point>();
+        for (JComponent btn : buttons) {
+            current.add((Point) btn.getClientProperty("position"));
+        }
+        if (compareList(solution, current)) {
+            JOptionPane.showMessageDialog(panel, "Finished",
+              "Congratulation", JOptionPane.INFORMATION_MESSAGE);
+        }
+    }
+            public static boolean compareList(List ls1, List ls2) {
+                 return ls1.toString().contentEquals(ls2.toString());
+    }
+        
+
+
+            
+
+
+
+
+
+
+
+
+       
+
