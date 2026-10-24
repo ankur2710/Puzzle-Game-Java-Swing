@@ -215,17 +215,7 @@ class MyButton extends JButton {
               "Congratulation", JOptionPane.INFORMATION_MESSAGE);
         }
     }
-            public static boolean compareList(List ls1, List ls2) {
-                 return ls1.toString().contentEquals(ls2.toString());
-    }
-                  public static void main(String[] args) {
-                       EventQueue.invokeLater(() -> {
-            var puzzle = new PuzzleEx();
-            puzzle.setVisible(true);
-         });
-    }
-}
-        
+
                   
        
 
