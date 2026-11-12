@@ -176,7 +176,50 @@ class MyButton extends JButton {
               return resizedImage;
     }
         private class ClickAction extends AbstractAction {
+          @Override
+        public void actionPerformed(ActionEvent e) {
+            checkButton(e);
+            checkSolution();
+        }
+            private void checkButton(ActionEvent e) {\
+                   int lidx = 0;
+                for (MyButton button : buttons) {
+                if (button.isLastButton()) {
+                lidx = buttons.indexOf(button);
+                }
+            }
+                var button = (JButton) e.getSource();
+                 int bidx = buttons.indexOf(button);
+                if ((bidx - 1 == lidx) || (bidx + 1 == lidx)
+                    || (bidx - 3 == lidx) || (bidx + 3 == lidx)) {
+                Collections.swap(buttons, bidx, lidx);
+                updateButtons();
+            }
+        }
+        private void updateButtons() {
+             panel.removeAll();
+              for (JComponent btn : buttons) {
+                 panel.add(btn);
+            }
+             panel.validate();
+        }
+    }
+         
+        
+  
+ 
+
+                  
+       
+
+
             
+
+
+
+
+
+      
 
 
 
