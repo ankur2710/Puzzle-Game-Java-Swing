@@ -204,7 +204,28 @@ class MyButton extends JButton {
              panel.validate();
         }
     }
+          private void checkSolution() {
+          var current = new ArrayList<Point>();
+        for (JComponent btn : buttons) {
+            current.add((Point) btn.getClientProperty("position"));
+        }
+        if (compareList(solution, current)) {
+            JOptionPane.showMessageDialog(panel, "Finished",
+              "Congratulation", JOptionPane.INFORMATION_MESSAGE);
+        }
+    }
+                       public static boolean compareList(List ls1, List ls2) {
+                 return ls1.toString().contentEquals(ls2.toString());
+    }
+                              public static void main(String[] args) {
+                       EventQueue.invokeLater(() -> {
          
+               var puzzle = new PuzzleEx();
+            puzzle.setVisible(true);
+         });
+    }
+}
+             
         
   
  
