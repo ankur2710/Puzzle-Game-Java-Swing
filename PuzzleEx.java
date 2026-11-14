@@ -63,7 +63,32 @@ class MyButton extends JButton {
             }
         });
     }
-      
+        public void setLastButton() {
+
+        isLastButton = true;
+    }
+       public boolean isLastButton() {
+
+        return isLastButton;
+    }
+}
+      public class PuzzleEx extends JFrame {
+     private JPanel panel;
+    private BufferedImage source;
+    private BufferedImage resized;
+    private Image image;
+    private MyButton lastButton;
+    private int width, height;
+    private List<MyButton> buttons;
+    private List<Point> solution;
+    private final int NUMBER_OF_BUTTONS = 12;
+    private final int DESIRED_WIDTH = 300;
+            
+            public PuzzleEx() {
+
+        initUI();
+    }
+    
   
                  Collections.shuffle(buttons);
                  buttons.add(lastButton);
