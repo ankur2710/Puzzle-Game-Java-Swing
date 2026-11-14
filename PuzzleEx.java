@@ -89,7 +89,60 @@ class MyButton extends JButton {
         initUI();
     }
     
-  
+           private void initUI() {
+
+        solution = new ArrayList<>();
+    
+        solution.add(new Point(0, 0));
+        solution.add(new Point(0, 1));
+        solution.add(new Point(0, 2));
+        solution.add(new Point(1, 0));
+        solution.add(new Point(1, 1));
+        solution.add(new Point(1, 2));
+         solution.add(new Point(2, 0));
+        solution.add(new Point(2, 1));
+        solution.add(new Point(2, 2));
+        solution.add(new Point(3, 0));
+        solution.add(new Point(3, 1));
+        solution.add(new Point(3, 2));
+            buttons = new ArrayList<>();
+            panel = new JPanel();
+        panel.setBorder(BorderFactory.createLineBorder(Color.gray));
+        panel.setLayout(new GridLayout(4, 3, 0, 0));
+         try {
+             source = loadImage();
+            int h = getNewHeight(source.getWidth(), source.getHeight());
+            resized = resizeImage(source, DESIRED_WIDTH, h,
+                    BufferedImage.TYPE_INT_ARGB);
+                } catch (IOException ex) {
+            JOptionPane.showMessageDialog(this, "Could not load image", "Error",
+                    JOptionPane.ERROR_MESSAGE);
+        }
+
+                 width = resized.getWidth(null);
+        height = resized.getHeight(null);
+                 
+        add(panel, BorderLayout.CENTER);
+        for (int i = 0; i < 4; i++) {
+             for (int j = 0; j < 3; j++) {
+                  image = createImage(new FilteredImageSource(resized.getSource(),
+                         new CropImageFilter(j * width / 3, i * height / 4,
+                                      (width / 3), height / 4)));
+
+                          var button = new MyButton(image);
+                           button.putClientProperty("position", new Point(i, j));
+                           if (i == 3 && j == 2) {
+                         lastButton = new MyButton();
+                         lastButton.setBorderPainted(false);
+                          lastButton.setContentAreaFilled(false);
+                             lastButton.setLastButton();
+                            lastButton.putClientProperty("position", new Point(i, j));
+                               } else {
+
+                    buttons.add(button);
+                }
+            }
+        }
                  Collections.shuffle(buttons);
                  buttons.add(lastButton);
                  for (int i = 0; i < NUMBER_OF_BUTTONS; i++) {
